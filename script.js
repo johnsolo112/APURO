@@ -49,7 +49,7 @@ function resetDaysSince() {
 
 
 
-let longestStreak = 0;
+let longestStreak = 40;
 
 function loadLongestStreak() {
     // Load from local storage or something similar
