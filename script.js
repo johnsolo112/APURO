@@ -32,17 +32,8 @@ function loadAssignmentCount() {
     document.getElementById('assignmentCount').innerText = assignmentCount;
 }
 
-function increaseAssignmentCount() {
-    assignmentCount++;
-    document.getElementById('assignmentCount').innerText = assignmentCount;
-}
 
-function decreaseAssignmentCount() {
-    if (assignmentCount > 0) {
-        assignmentCount--;
-    }
-    document.getElementById('assignmentCount').innerText = assignmentCount;
-}
+
 
 let daysSinceLastReset = 0;
 
